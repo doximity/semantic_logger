@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     name: "Test: Ruby ${{ matrix.ruby }}"
-    runs-on: ubuntu-latest
+    runs-on: general-purpose
     services:
       mongodb:
         image: mongo
